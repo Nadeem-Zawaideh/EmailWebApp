@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Compose Email</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Compose Email</h1>
+
+  <form id="compose-form">
+    <label>To (recipient's email):<br>
+      <input type="email" id="recipient" required>
+    </label><br><br>
+
+    <label>Subject:<br>
+      <input type="text" id="subject" required>
+    </label><br><br>
+
+    <label>Message:<br>
+      <textarea id="body" rows="6" required></textarea>
+    </label><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="status"></p>
+  <button onclick="window.location.href='inbox.html'">Back to Inbox</button>
+
+  <script src="js/compose.js"></script>
+</body>
+</html>
