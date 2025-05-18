@@ -1,4 +1,4 @@
-# Assignment 4 – Secure Email Web App
+# Secure Email Web App
 
 ## Information
 
